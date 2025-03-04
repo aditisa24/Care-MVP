@@ -16,15 +16,10 @@
 - **Backend:** Node.js, Express, MongoDB Atlas
 - **Deployment:** Render (Frontend & Backend)
 
----
 
-## 📸 Live Links
-https://care-mvp-1.onrender.com/
-
----
 
 ## 🚀 Live Demo
-🔗 **Frontend:** [Care-Nursing App](https://care-mvp.onrender.com)  
+🔗 **Frontend:** [Care-Nursing App](https://care-mvp-1.onrender.com/)  
 🔗 **Backend API:** [Care-Nursing Backend](https://care-mvp.onrender.com/api)
 
 ---
