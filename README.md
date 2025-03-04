@@ -45,7 +45,7 @@ node index.js
 npx nodemon index.js
 ```
 
-### 🔹 4. Start the backend
+### 🔹 4. Start the frontend
 ```sh
 cd frontend
 npm install
