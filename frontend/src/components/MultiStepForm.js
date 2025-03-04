@@ -4,6 +4,9 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import { findFacilityMatch } from "../services/api";
 import { toast, ToastContainer } from "react-toastify";
+import Header from "../screens/Header";
+import Footer from "../screens/Footer";
+
 
 
 
@@ -70,8 +73,11 @@ const MultiStepForm = () => {
     };
 
     return (
+        <div>
+        <Header />
         <div className="form-container">
             <ToastContainer />
+            
             <h2>Step {step} of 3</h2>
             <form onSubmit={handleSubmit(onSubmit)}>
                 {step === 1 && (
@@ -138,6 +144,8 @@ const MultiStepForm = () => {
                     )}
                 </div>
             )}
+        </div>
+        <Footer />
         </div>
     );
 };
