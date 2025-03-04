@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8000/api"; // Replace with Render URL after deployment
+const API_URL = "https://care-mvp.onrender.com"; // Replace with Render URL after deployment
 
 export const findFacilityMatch = async (formData) => {
     try {
