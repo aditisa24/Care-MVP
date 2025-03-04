@@ -18,9 +18,8 @@
 
 ---
 
-## 📸 Screenshots
-### Home Page
-![Care-Nursing App UI](https://your-image-url.com)  <!-- Replace with actual image URL -->
+## 📸 Live Links
+https://care-mvp-1.onrender.com/
 
 ---
 
@@ -36,19 +35,25 @@
 ```sh
 git clone https://github.com/aditisa24/care-mvp.git
 cd care-mvp
+```
 
-cd backend
-npm install
-
+### 🔹 2. Create .env file
+```sh
 MONGO_URI=your_mongodb_connection_string
 PORT=8000
-
+```
+### 🔹 3. Start the backend
+```sh
+cd backend
+npm install
 node index.js
 npx nodemon index.js
+```
 
+### 🔹 4. Start the backend
+```sh
 cd frontend
 npm install
-
-
 npm start
+```
 
